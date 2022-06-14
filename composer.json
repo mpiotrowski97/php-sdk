@@ -1,5 +1,5 @@
 {
-  "name": "configcat/configcat-client",
+  "name": "mpiotrowski/configcat-client",
   "type": "library",
   "description": "ConfigCat is a feature flag, feature toggle, and configuration management service. That lets you launch new features and change your software configuration remotely without actually (re)deploying code. ConfigCat even helps you do controlled roll-outs like canary releases and blue-green deployments.",
   "keywords": ["configcat", "feature flag", "feature toggle", "user targeting"],
@@ -15,7 +15,7 @@
   "require": {
     "php": ">=7.1",
     "guzzlehttp/guzzle": "^6.3 || ^7.0",
-    "psr/log": "^1.1",
+    "psr/log": ">1.1",
     "ext-json": "*",
     "monolog/monolog": "^1.6|^2.0",
     "z4kn4fein/php-semver": "^1.2"
