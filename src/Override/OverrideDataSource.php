@@ -24,7 +24,7 @@ abstract class OverrideDataSource implements LoggerAwareInterface
      * Sets the logger.
      * @param LoggerInterface $logger The logger.
      */
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger): void
     {
         $this->logger = $logger;
     }
