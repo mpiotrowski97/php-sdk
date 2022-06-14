@@ -15,7 +15,7 @@
   "require": {
     "php": ">=7.1",
     "guzzlehttp/guzzle": "^6.3 || ^7.0",
-    "psr/log": ">1.1",
+    "psr/log": "^3",
     "ext-json": "*",
     "monolog/monolog": "^1.6|^2.0",
     "z4kn4fein/php-semver": "^1.2"
